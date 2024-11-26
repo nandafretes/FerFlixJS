@@ -1,0 +1,52 @@
+.conteiner{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+
+}
+.titulo{
+   
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color:rgb(213, 173, 53);
+      
+}
+.formulario{
+    display:flex;
+    flex-direction: column;
+    background-color: #333;
+    padding: 30px;
+    border-radius: 9px;
+    font-size: 16px;
+    align-items: center;
+    width: 600px;
+}
+.campo{
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 500px;
+    color:#333;
+}
+
+.botao{
+    width: 100%;
+    padding: 12px;
+    background-color:rgb(213, 173, 53) ; 
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.mensagem{
+    color: red;
+    font-weight: bold;
+    display: block; 
+
+}

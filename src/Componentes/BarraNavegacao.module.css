@@ -1,0 +1,22 @@
+.conteiner {
+    background-color: #141414;
+    padding: 1rem;
+  }
+   
+  .conteiner ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+    color:#e5e5e5
+  }
+   
+  .conteiner a {
+    color: #e5e5e5;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+   
+  .conteiner a:hover {
+    color: #b81d24;
+  }
